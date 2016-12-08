@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wdd/webapps/MoviesAndChill/conf/routes
-// @DATE:Fri Nov 18 14:56:19 GMT 2016
+// @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
+// @DATE:Thu Dec 08 14:24:27 GMT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -123,6 +123,16 @@ package controllers.javascript {
       """
     )
   
+    // @LINE:35
+    def newshorror_3: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.newshorror_3",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "newshorror_3"})
+        }
+      """
+    )
+  
     // @LINE:29
     def newsaction_3: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newsaction_3",
@@ -179,16 +189,6 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + """"})
-        }
-      """
-    )
-  
-    // @LINE:35
-    def newhorror_3: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.newhorror_3",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "newhorror_3"})
         }
       """
     )

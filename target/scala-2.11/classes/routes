@@ -17,3 +17,19 @@ GET /public/base.css					controllers.Assets.at(path="/public", base)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+GET /action			controllers.HomeController.action
+GET /comedy			controllers.HomeController.comedy
+GET /form			controllers.HomeController.form
+GET /help			controllers.HomeController.help
+GET /horror			controllers.HomeController.horror
+GET /index2			controllers.HomeController.index2
+GET /newsaction_1		controllers.HomeController.newsaction_1
+GET /newsaction_2		controllers.HomeController.newsaction_2
+GET /newsaction_3		controllers.HomeController.newsaction_3
+GET /newscomedy_1		controllers.HomeController.newscomedy_1
+GET /newscomedy_2		controllers.HomeController.newscomedy_2
+GET /newscomedy_3		controllers.HomeController.newscomedy_3
+GET /newshorror_1		controllers.HomeController.newshorror_1
+GET /newshorror_2		controllers.HomeController.newshorror_2
+GET /newshorror_3		controllers.HomeController.newshorror_3

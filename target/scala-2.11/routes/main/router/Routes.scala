@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wdd/webapps/MoviesAndChill/conf/routes
-// @DATE:Fri Nov 18 14:56:19 GMT 2016
+// @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
+// @DATE:Thu Dec 08 14:24:27 GMT 2016
 
 package router
 
@@ -70,7 +70,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newscomedy_3""", """controllers.HomeController.newscomedy_3"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newshorror_1""", """controllers.HomeController.newshorror_1"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newshorror_2""", """controllers.HomeController.newshorror_2"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newhorror_3""", """controllers.HomeController.newhorror_3"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newshorror_3""", """controllers.HomeController.newshorror_3"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -402,19 +402,19 @@ class Routes(
   )
 
   // @LINE:35
-  private[this] lazy val controllers_HomeController_newhorror_319_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newhorror_3")))
+  private[this] lazy val controllers_HomeController_newshorror_319_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newshorror_3")))
   )
-  private[this] lazy val controllers_HomeController_newhorror_319_invoker = createInvoker(
-    HomeController_0.newhorror_3,
+  private[this] lazy val controllers_HomeController_newshorror_319_invoker = createInvoker(
+    HomeController_0.newshorror_3,
     HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.HomeController",
-      "newhorror_3",
+      "newshorror_3",
       Nil,
       "GET",
       """""",
-      this.prefix + """newhorror_3"""
+      this.prefix + """newshorror_3"""
     )
   )
 
@@ -536,9 +536,9 @@ class Routes(
       }
   
     // @LINE:35
-    case controllers_HomeController_newhorror_319_route(params) =>
+    case controllers_HomeController_newshorror_319_route(params) =>
       call { 
-        controllers_HomeController_newhorror_319_invoker.call(HomeController_0.newhorror_3)
+        controllers_HomeController_newshorror_319_invoker.call(HomeController_0.newshorror_3)
       }
   }
 }

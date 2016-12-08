@@ -29,67 +29,21 @@ class horror extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Form
       {
 
 
-Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
- <html lang="en-US">
-     <head>
-	 
-         <meta charset="UTF-8">
-          <title>Movies & Chill</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<link href="base.css" rel="stylesheet" alt="Cascading Style Sheet.">
-			
-	 <div id="Logo">
-	 <span class="glyphicons glyphicons-user"></span>
-    <a href="signup.html" alt="Logo Link" ><h1>Movies & Chill</h1></a>
-	<div id="signup">
-	<a href="signup.html" alt="Logo Link" ><i class="fa fa-user-plus"  style="font-size:48px; right: 10em; color:white"></i></a>
-	</div>
-  </div>
-	 <div id="cinema red"><body background="cinred.jpeg"></div>
-        
-		<div id="Navigation">
-            <div id="Home"><a href="index.html" alt="Link to the Homepage">HOME</a></div><br><br>
-			
-            <div id="Action"><a href="action.html"  alt="Link to Actionpage">ACTION</a></div><br><br>
-			
-            <div id="Comedy"><a href="comedy.html"  alt="Link to Comedypage">COMEDY</a></div><br><br>
-			
-            <div id="Horror"><a href="horror.html"  alt="Link to the Horrorpage">HORROR</a></div>
-			</div>
+Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.15*/("""
 
-	
-<div id="Container">
 
-<div id="frontpage"><a href="index.html" alt="Link to the Homepage"><h2>HOME</h2></a>
-	</div>	
-	
-<div id="headlines">
-
-<div id="container3"><div id="headline3"><a href="newshorror_3.html"><div id="headlineIcon"><img src="Arrival.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Arrival<br><br>READ FULL REVIEW</h3></a></div></div>
+"""),format.raw/*4.1*/("""<div id="container3"><div id="/headline3"><a href="/newshorror_3"><div id="headlineIcon"><img src="Arrival.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Arrival<br><br>READ FULL REVIEW</h3></a></div></div>
 <br>
 <hr>		
-<div id="container5"><div id="headline5"><a href="newshorror_1.html"><div id="headlineIcon"><img src="GOTT.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> The Girl On The Train<br><br>READ FULL REVIEW</h3></a></div></div>		
+<div id="container5"><div id="/headline5"><a href="/newshorror_1"><div id="headlineIcon"><img src="GOTT.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> The Girl On The Train<br><br>READ FULL REVIEW</h3></a></div></div>		
 <br>
 <hr>
-<div id="container8"><div id="headline8"><a href="newshorror_2.html"><div id="headlineIcon"><img src="DontBreath.jpeg" alt="movie pic" height="88" width="90" align="right"></div><h3> Don't Breath<br><br>READ FULL REVIEW</h3></a></div></div>	
+<div id="container8"><div id="/headline8"><a href="/newshorror_2"><div id="headlineIcon"><img src="DontBreath.jpeg" alt="movie pic" height="88" width="90" align="right"></div><h3> Don't Breath<br><br>READ FULL REVIEW</h3></a></div></div>	
 	
 	</div>
     </div>    
         
-		<div id="Footer">
-            <p>
-                Copyright &copyMovies&Chill.com
-            </p>
-			<div id="FooterNav">
-			<div id="FootNavHelp">
-			<a href="help.html" alt="Link to our help page.">Get In Touch With Us</a>
-			</div>
-			
-			 <a href="https://www.facebook.com/" id="F" alt="Link to Find us on Facebook"><img src="Facebook.png" alt="Image of Facebook Logo"></a>
-			 <a href="https://twitter.com/?lang=en" id="T" alt="Link to Find us on Twitter"><img src="Twitter.png" alt="Image of twitter Logo"></a>
-			  
-			</div>
+		
         </div>
      </body>
      
@@ -98,6 +52,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
      
      
  </html>
+""")))}),format.raw/*24.2*/("""
 """))
       }
     }
@@ -118,11 +73,11 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 object horror extends horror_Scope0.horror
               /*
                   -- GENERATED --
-                  DATE: Fri Nov 18 14:53:54 GMT 2016
-                  SOURCE: /home/wdd/webapps/MoviesAndChill/app/views/horror.scala.html
-                  HASH: f36ab4f62551198b09a4eec4bd3d3f03ac89d831
-                  MATRIX: 829->0
-                  LINES: 32->1
+                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/horror.scala.html
+                  HASH: 0a4c6b43e97fdfbb3d8d406a47fd24b8eff4c2da
+                  MATRIX: 829->1|849->13|887->14|919->20|1806->877
+                  LINES: 32->1|32->1|32->1|35->4|55->24
                   -- GENERATED --
               */
           

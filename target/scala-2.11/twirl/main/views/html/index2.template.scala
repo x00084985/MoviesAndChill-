@@ -37,8 +37,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
           <title>Movies & Chill</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<link href="base.css" rel="stylesheet" alt="Cascading Style Sheet.">
-			
+			<link href='"""),_display_(/*9.17*/routes/*9.23*/.Assets.at("stylesheets/base.css")),format.raw/*9.57*/("""' rel="stylesheet" alt="Cascading Style Sheet.">
 	 <div id="Logo">
 	 <span class="glyphicons glyphicons-user"></span>
     <a href="signup.html" alt="Logo Link" ><h1>Movies & Chill</h1></a>
@@ -91,7 +90,8 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 			
         </div>
 		
-     </body>"""))
+     </body>
+"""))
       }
     }
   }
@@ -111,11 +111,11 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 object index2 extends index2_Scope0.index2
               /*
                   -- GENERATED --
-                  DATE: Fri Nov 18 14:53:54 GMT 2016
-                  SOURCE: /home/wdd/webapps/MoviesAndChill/app/views/index2.scala.html
-                  HASH: 8e0aca0beeae088169c70bcccdea328a565b76ae
-                  MATRIX: 829->0
-                  LINES: 32->1
+                  DATE: Thu Dec 08 14:34:51 GMT 2016
+                  SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/index2.scala.html
+                  HASH: 07cad767903bd41ad5b532e0a14439c3cf9ac65a
+                  MATRIX: 829->0|1192->337|1206->343|1260->377
+                  LINES: 32->1|40->9|40->9|40->9
                   -- GENERATED --
               */
           

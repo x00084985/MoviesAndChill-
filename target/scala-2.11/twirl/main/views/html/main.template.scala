@@ -48,32 +48,32 @@ Seq[Any](format.raw/*7.32*/("""
 			
 	 <div id="Logo">
 	 <span class="glyphicons glyphicons-user"></span>
-    <a href="index.html" alt="Logo Link" ><h1>Movies & Chill</h1></a>
+    <a href="/" alt="Logo Link" ><h1>Movies & Chill</h1></a>
 	<div id="signup">
-	<a href="signup.html" alt="Logo Link" ><i class="fa fa-user-plus"  style="font-size:48px; right: 10em; color:white"></i></a>
+	<a href="/signup" alt="Logo Link" ><i class="fa fa-user-plus"  style="font-size:48px; right: 10em; color:white"></i></a>
 </head>
     <body background="cinred.jpeg">
         <div id="cinema red"></div>
 	 <div id="Navigation">
-            <div id="Home"><a href="index.html" alt="Link to the Homepage">HOME</a></div><br><br>
+            <div id="Home"><a href="/" alt="Link to the Homepage">HOME</a></div><br><br>
 			
-            <div id="Action"><a href="action.html"  alt="Link to Actionpage">ACTION</a></div><br><br>
+            <div id="Action"><a href="/action"  alt="Link to Actionpage">ACTION</a></div><br><br>
 			
-            <div id="Comedy"><a href="comedy.html"  alt="Link to Comedypage">COMEDY</a></div><br><br>
+            <div id="Comedy"><a href="/comedy"  alt="Link to Comedypage">COMEDY</a></div><br><br>
 			
-            <div id="Horror"><a href="horror.html"  alt="Link to the Horrorpage">HORROR</a></div>
+            <div id="Horror"><a href="/horror"  alt="Link to the Horrorpage">HORROR</a></div>
 			</div>
        
 <div id="Container">
 
-<div id="frontpage"><a href="index.html" alt="Link to the Homepage"><h2>HOME</h2></a>
+<div id="frontpage"><a href="/" alt="Link to the Homepage"><h2>HOME</h2></a>
 	</div>	
 	
 
     """),_display_(/*43.6*/content),format.raw/*43.13*/("""
   """),format.raw/*44.3*/("""<footer>
 	
-	<div id="Page"><a href="index2.html" alt="Link to next page"> NEXT PAGE </div>
+	
     
     
 	  <div id="Footer">
@@ -82,7 +82,7 @@ Seq[Any](format.raw/*7.32*/("""
             </p>
 			<div id="FooterNav">
 			<div id="FootNavHelp">
-			<a href="help.html" alt="Link to our help page.">Get In Touch With Us</a>
+			<a href="/help" alt="Link to our help page.">Get In Touch With Us</a>
 			
 			
 			
@@ -125,10 +125,10 @@ Seq[Any](format.raw/*7.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Fri Nov 18 14:40:15 GMT 2016
-                  SOURCE: /home/wdd/webapps/MoviesAndChill/app/views/main.scala.html
-                  HASH: 57436c0361d535d9537c517a9d5432111f2f9dd8
-                  MATRIX: 1002->260|1127->290|1155->292|1508->618|1523->624|1578->658|2600->1654|2628->1661|2658->1664
+                  DATE: Thu Dec 08 16:31:03 GMT 2016
+                  SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/main.scala.html
+                  HASH: bc02f1e1af40ac5e15115204e380e3c329d51631
+                  MATRIX: 1002->260|1127->290|1155->292|1508->618|1523->624|1578->658|2557->1611|2585->1618|2615->1621
                   LINES: 32->7|37->7|39->9|47->17|47->17|47->17|73->43|73->43|74->44
                   -- GENERATED --
               */

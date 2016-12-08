@@ -29,40 +29,9 @@ class newsaction_3 extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendabl
       {
 
 
-Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
- <html lang="en-US">
-     <head>
-	 
-         <meta charset="UTF-8">
-          <title>Movies & Chill</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-			<link href="base.css" rel="stylesheet" alt="Cascading Style Sheet.">
-			
-	 <div id="Logo">
-	 <span class="glyphicons glyphicons-user"></span>
-    <a href="signup.html" alt="Logo Link" ><h1>Movies & Chill</h1></a>
-	<div id="signup">
-	<a href="signup.html" alt="Logo Link" ><i class="fa fa-user-plus"  style="font-size:48px; right: 10em; color:white"></i></a>
-	</div>
-  </div>
-	 <div id="cinema red"><body background="cinred.jpeg"></div>
-        <div id="Navigation">
-            <div id="Home"><a href="index.html" alt="Link to the Homepage">HOME</a></div><br><br>
-			
-            <div id="Action"><a href="action.html"  alt="Link to Actionpage">ACTION</a></div><br><br>
-			
-            <div id="Comedy"><a href="comedy.html"  alt="Link to Comedypage">COMEDY</a></div><br><br>
-			
-            <div id="Horror"><a href="horror.html"  alt="Link to the Horrorpage">HORROR</a></div>
-			</div>
+Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1.16*/("""
 
-<div id="Container">
-
-
-
-
-<div id="actionfrontpage"><a href="action.html" alt="Link to the Actionpage"><h2>ACTION</h2></a>
+"""),format.raw/*3.1*/("""<div id="actionfrontpage"><a href="/action" alt="Link to the Actionpage"><h2>ACTION</h2></a>
 	</div>	
 	
 	<div id= "action3BODY">
@@ -76,28 +45,11 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
                     </div>
                     </div>
 		
-		<div id="Footer">
-            <p>
-                Copyright &copyMovies&Chill.com
-            </p>
-			<div id="FooterNav">
-			<div id="FootNavHelp">
-			<a href="help.html" alt="Link to our help page.">Get In Touch With Us</a>
-			</div>
-			
-			 <a href="https://www.facebook.com/" id="F" alt="Link to Find us on Facebook"><img src="Facebook.png" alt="Image of Facebook Logo"></a>
-			 <a href="https://twitter.com/?lang=en" id="T" alt="Link to Find us on Twitter"><img src="Twitter.png" alt="Image of twitter Logo"></a>
-			  
-			</div>
-        </div>
-		
-		</body>
-     
-     
-     
+
      
      
  </html>
+""")))}),format.raw/*21.2*/("""
 """))
       }
     }
@@ -118,11 +70,11 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 object newsaction_3 extends newsaction_3_Scope0.newsaction_3
               /*
                   -- GENERATED --
-                  DATE: Fri Nov 18 14:53:54 GMT 2016
-                  SOURCE: /home/wdd/webapps/MoviesAndChill/app/views/newsaction_3.scala.html
-                  HASH: 2a51cc62aa55f9651108c6e1eedb412a52f25b11
-                  MATRIX: 841->0
-                  LINES: 32->1
+                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newsaction_3.scala.html
+                  HASH: dd55fe777c0451cc47294b128cf4a38687a8a929
+                  MATRIX: 841->1|861->13|900->15|930->19|1306->365
+                  LINES: 32->1|32->1|32->1|34->3|52->21
                   -- GENERATED --
               */
           

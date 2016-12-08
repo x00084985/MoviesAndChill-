@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wdd/webapps/MoviesAndChill/conf/routes
-// @DATE:Fri Nov 18 14:56:19 GMT 2016
+// @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
+// @DATE:Thu Dec 08 14:24:27 GMT 2016
 
 
 package router {

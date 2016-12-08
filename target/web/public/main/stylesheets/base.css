@@ -54,10 +54,9 @@ color: white;
 position:relative; 
 /*top: 10em;*/
 color: white;
-width:0%;
-margin-right:auto;
-margin-left:auto;
-margin-top:2em;
+width:60em;
+margin-left: -85em;
+margin-top:5em;
 }
 
 #frontpage  /*This tag is for the small tab that sits on top of the headlines list*/
@@ -324,10 +323,10 @@ text-decoration: none;
 #Navigation
 {
 position:fixed;
-top:15em;
-margin-left:2em;  
+top:15em;  
 background-color:#ffffff;
 border:solid 0.1em #C8C8C8;
+margin-left: -110em;
 border-radius:.4em;
 width:10em;
 float:left;
