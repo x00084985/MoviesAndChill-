@@ -1,0 +1,829 @@
+
+body
+{
+background-repeat: none;
+font-family: "Arial", "sans-serif";
+}
+
+#Logo
+{
+top: -1em; /*measurement added to fill entire top header*/
+left: -1.6em; /*measurement added to fill entire top header*/
+font-family: "Arial Black", Gadget, sans-serif;
+background-color: #8B0000;/*banner color*/
+color: white;/*font color*/
+border-radius: .5em;
+border-width:.6em;	
+border-style: solid;/*added smooth edges*/
+border-color: #8B0000;
+height: 15%;
+width: 100%;
+z-index: 2;/*allows the logo to layer in front of everything else*/
+margin-left: 1em;
+margin-right: 1em;
+margin-bottom: 2em;
+position: fixed;/*done so the logo would move as the page scrolls*/
+font-size: 12pt;
+}
+
+#signup
+{
+color: white;/*font color*/
+height: 15%;
+z-index: 2;/*allows the logo to layer in front of everything else*/
+margin-left:113.5em;
+margin-top: -4.2em;
+margin-bottom: 6em;
+position: fixed;/*done so the logo would move as the page scrolls*/
+}
+
+#signlogo
+{
+margin-bottom: 4em;	
+}
+
+#Logo a /*this tag allows the user to click on the logo so that it will redirect them to the home page*/
+{
+text-decoration: none;
+color: white;
+}
+
+
+#Container /*this contains all the frontpage headlines*/
+{
+position:relative; 
+/*top: 10em;*/
+color: white;
+width:0%;
+margin-right:auto;
+margin-left:auto;
+margin-top:2em;
+}
+
+#frontpage  /*This tag is for the small tab that sits on top of the headlines list*/
+{
+background-color: #000048;
+color: white;
+border-width: .01em;	
+border-style: solid;
+border-color: #000048;
+border-top: white;
+width: 17%;
+z-index: 2;
+height: 4em;
+text-decoration: none;
+}
+
+#frontpage a /*This tag is so the user can press on it and be directed back to the homepage (headlines)*/
+{
+text-decoration: none;
+color: white; 
+}
+
+#horrorfrontpage /*This tag is similar to the inital frontpage tag, except it represents the frontpage tab for the horror category*/
+{
+background-color: #000048;
+color: white;
+border-width: .01em;	
+border-style: solid;
+border-color: #000048;
+border-bottom: none;
+width: 17%;
+z-index: 1;
+height: 4em;
+}
+
+#horrorfrontpage a /*This tag allows the user to press on the tab in any horror article to direct them back to the horror headlines specifically*/
+{
+text-decoration: none;
+color: white; 
+}
+
+#comedyfrontpage /*This tag represents the tab for comedy*/
+{
+background-color: #000048;
+color: white;
+border-width: .01em;	
+border-style: solid;
+border-color: #000048;
+border-bottom: none;
+width: 17%;
+z-index: 1;
+height: 4em;
+}
+
+#comedyfrontpage a/*This tag allows the user to press on the comedy tab in any comedy review to direct them back to the comedy headlines*/
+{
+text-decoration: none;
+color: white; 
+}
+
+#actionfrontpage/*This tag allows represents the tab for action*/
+{
+background-color: #000048;
+color: white;
+border-width: .01em;	
+border-style: solid;
+border-color: #000048;
+border-top: white;
+width: 17%;
+z-index: 1;
+height: 4em;
+}
+
+#actionfrontpage a/*This tag allows the user to press on the action tab in any article to direct them back to space headlines*/
+{
+text-decoration: none;
+color: white; 
+}
+
+#headlines/*This tag holds the general format for all home page and filtered headlines*/
+{
+margin-right:auto;
+margin-left:auto;
+text-align: left;
+font-size: 12pt;
+background-color: #f2f2f2;
+border-radius: .2em;
+border-width: .1em;	
+border-style:solid;
+border-color: grey;
+border: none;
+padding: .25em;
+letter-spacing: .07em;
+text-decoration: none;
+}
+/*THE FOLLOWING TAGS: CONTAINER 1 THROUGH TO 9 AND CONTAINER:HOVER, REPRESENT THE COLOR HIGHLIGHT THAT APPEARS BEHIND ARTICLES WHEN YOU HOVER OVER EACH ONE*/
+#container1,#container2,#container9
+{
+border-color: #8B0000;
+background-color: #8B0000;
+text-decoration: none;
+}
+
+#container1,#container2,#container3,#container4,#container5,#container6,#container7,#container8,#container9,#container10
+{
+border-radius: .4em;
+border-width: .1em;
+border-style: solid;
+width: 100%; 
+transition: all .2s ease-in-out;
+text-decoration: none;
+}
+
+#container1:hover,#container2:hover,#container9:hover
+{
+
+background-color: #8B0000;
+border-color: #8B0000;
+text-decoration: none;
+}
+
+#container3,#container5,#container8
+{
+
+border-color: #8B0000;
+background-color: #8B0000;
+text-decoration: none;
+}
+
+#container3:hover,#container5:hover,#container8:hover
+{
+
+background-color: #8B0000;
+border-color: #8B0000;
+text-decoration: none;
+}
+
+#container4,#container6,#container7,#container10
+{
+
+border-color: #8B0000;
+background-color: #8B0000;
+text-decoration: none;
+}
+
+#container4:hover,#container6:hover,#container7:hover,#container10:hover
+{
+
+background-color: #8B0000;
+border-color: #8B0000;
+text-decoration: none;
+}
+
+#Contacts,#Info
+{
+margin-bottom:1em;
+margin-right:auto;
+font-size:12pt;
+padding:0.25em;
+background-color: #C8C8C8;
+margin-left:auto;
+border:solid 0.1em #666666;
+width:99%;
+}
+
+#Info p,#Contacts ul
+{
+font-size: 12pt;
+color:#808080;
+text-align:left;
+}
+
+#Info h3,#Contacts h3
+{
+border-bottom:solid 0.2em #666666;
+color:#666666;
+font-size:14pt;
+margin-right:auto;
+margin-left:auto;
+text-align:center;
+width:30%;
+}
+
+#headline1, #headline2, #headline3, #headline4, #headline5, #headline6, #headline7, #headline8,  #headline9, #headline10 /*These tags are grouped together as to allow them to magnify when user hovers over them*/
+{
+width: 60%;
+margin-right: auto;
+margin-left: auto;
+border-radius: .5em;
+text-align: left;
+box-shadow: .2em .2em .2em grey;
+margin-bottom: 2em;
+clear: both;
+text-decoration: none;
+transition: all .2s ease-in-out; /* 1st Part of the magnification effect*/
+}
+
+#headline1,#headline2,#headline9 
+{
+background-color: #000048; 
+color: white;
+text-decoration: none;
+}
+
+#headline1 a,#headline2 a,#headline3 a,#headline4 a, #headline5 a,#headline6 a,#headline7 a, #headline8 a,#headline9 a,#headline 10 a /*All tagged so text-decoration could be deleted after headlines were linked up*/
+{
+text-decoration: none;
+}
+
+#headline1 a,#headline2 a,#headline9 a 
+{
+color: white;
+text-decoration: none;
+}
+
+#headline1:hover,#headline2:hover,#headline9:hover  /*As user hovers over reviews, the shade of blue changes*/
+{
+background-color: #6495ED;
+text-decoration: none;
+}
+
+#headline1:hover,#headline2:hover,#headline3:hover,#headline4:hover, #headline5:hover,#headline6:hover,#headline7:hover, #headline8:hover,#headline9:hover ,#headline10:hover /*This tag is needed for the second part of the magnification effect that happens when user hovers over headline*/
+{
+transform: scale(1.1); /*Applied alongside transition to achieve magnification zoom effect*/
+text-decoration: none; 
+}
+
+#headline3, #headline5, #headline8 /*Color coded blue reviews*/ 
+{
+background-color: #000048; 
+text-decoration: none; 
+}
+
+#headline3 a, #headline5 a, #headline8 a 
+{
+color: white;
+text-decoration: none; 
+}
+
+#headline3:hover, #headline5:hover, #headline8:hover/*As user hovers over horror headlines, the shade of blue changes*/
+{
+background-color: #6495ED;
+text-decoration: none; 
+}
+
+#headline4,#headline6,#headline7,#headline10/*Color coded blue reviews*/
+{
+background-color: #000048;
+text-decoration: none;  
+}
+
+#headline4 a,#headline6 a,#headline7 a ,#headline10 a
+{
+color: white;
+text-decoration: none; 
+}
+
+#headline4:hover,#headline6:hover,#headline7:hover,#headline10:hover/*As user hovers over review tab, the shade of blue changes*/
+{
+background-color: #6495ED;
+text-decoration: none; 
+}
+
+#Navigation
+{
+position:fixed;
+top:15em;
+margin-left:2em;  
+background-color:#ffffff;
+border:solid 0.1em #C8C8C8;
+border-radius:.4em;
+width:10em;
+float:left;
+padding:0.5em;
+}
+#Navigation a 
+{
+text-decoration:none;
+color: #585858;
+font-weight: bold;
+}
+
+#Home ,#Action ,#Comedy ,#Horror 
+{
+width:10%;
+float:left;
+font-size:18pt;
+text-decoration:none;
+color:white;
+clear:both;
+margin-bottom:1em;
+border-radius:.2em;
+transition:all 0.3s ease-in-out;
+}
+
+#Home a,#Action a,#Comedy a,#Horror a{
+border-bottom:solid 0.1em #C0C0C0;
+margin-left:1em;
+transition: all 0.4s ease-in-out;
+}
+
+#Home
+{   
+font-size:18pt;
+background-color:#000048;
+border:solid 0.1em #6495ED ;    
+border-color: #000048;
+}
+#Home:hover
+{
+width:100%;
+transform: scale(1.0);
+background-color:#6495ED;
+border:solid 0.1em #6495ED;
+}
+
+#Home a:Hover
+{
+border:none;
+color:#FFFFFF;
+}
+
+#Action
+{   
+font-size:18pt;
+background-color:#000048;
+border:solid 0.1em #6495ED ;    
+border-color: #000048;
+}
+
+#Action:hover
+{
+width:100%;
+transform: scale(1.0);
+background-color:#6495ED;
+border:solid 0.1em #6495ED;
+}
+
+#Action a:hover
+{
+border:none;
+color:#FFFFFF;
+}
+
+#Comedy
+{   
+font-size:18pt;
+background-color:#000048;
+border:solid 0.1em #6495ED ;    
+border-color: #000048;
+}
+
+#Comedy:hover
+{
+width:100%;
+transform: scale(1.0);
+background-color:#6495ED;
+border:solid 0.1em #6495ED;
+}
+
+#Comedy a:hover
+{
+color:#FFFFFF;
+border:none;
+}
+
+#Horror
+{   
+font-size:18pt;
+background-color:#000048;
+border:solid 0.1em #6495ED ;    
+border-color: #000048;
+}
+
+#Horror:hover
+{
+width:100%;
+transform: scale(1.0);
+background-color:#6495ED;
+border:solid 0.1em #6495ED;
+}
+
+#Horror a:hover
+{
+color:#FFFFFF;
+border:none;
+}
+
+/*ALL HEADS AND BODIES REPRESENT THE BODY AND TITLE FORMATS FOR EACH AND EVERY ARTICLE*/
+#horror1head, #horror2head, #horror3head
+{
+font-size: 14pt;
+background-color: #8B0000;
+color: white;
+border: solid;
+border-color: #8B0000;
+letter-spacing: .05em;
+}
+
+#horror1BODY, #horror2BODY, #horror3BODY
+{
+margin-right:auto;
+margin-left:auto;
+text-align: left;
+font-size: 12pt;
+background-color: #f2f2f2;
+border-width: .1em;	
+border-style:solid;
+border-color: grey;
+padding: .25em;
+color: black;
+letter-spacing: .05em;
+}
+
+#horror3BODY a, #horror2BODY a, #horror1BODY a
+{
+text-decoration: none;
+}
+
+#action2head, #action3head, #action1head
+{
+font-size: 14pt;
+background-color: #8B0000;
+color: white;
+border: solid;
+border-color: #8B0000;
+letter-spacing: .05em;
+}
+
+#action2BODY, #action3BODY, #action1BODY
+{
+margin-right:auto;
+margin-left:auto;
+text-align: left;
+font-size: 12pt;
+background-color: #f2f2f2;
+border-width: .1em;	
+border-style:solid;
+border-color: grey;
+padding: .25em;
+color: black;
+letter-spacing: .05em;
+}
+
+
+#comedy1_head, #comedy2_head, #comedy3_head
+{
+font-size: 14pt;
+background-color: #8B0000;
+color: white;
+border: solid;
+border-color: #8B0000;
+letter-spacing: .05em;
+}
+
+#COMEDY1_BODY, #COMEDY2_BODY, #COMEDY3_BODY
+{
+margin-right:auto;
+margin-left:auto;
+text-align: left;
+font-size: 12pt;
+background-color: #f2f2f2;
+border-width: .1em;	
+border-style:solid;
+border-color: grey;
+padding: .25em;
+color: black;
+letter-spacing: .05em;
+height: auto;
+}
+
+#COMEDY1_BODY a, #COMEDY2_BODY a, #COMEDY3_BODY a
+{
+text-decoration: none;
+}
+
+/*THE FOLLOWING IMAGES REPRESENT THE PICS THAT SIT ABOVE THE CONTAINER AND BELOW THE HEADER*/
+#actionimage img
+{
+width: 100%;
+top: -6em;
+height: 10em;
+position: absolute;
+border-color: grey;
+z-index: -1;
+}
+
+#blackimage img
+{
+width: 100%;
+top: -12.5em;
+height: 28%;
+position: absolute;
+border-color: grey;
+z-index: -1;
+}
+
+#horrorimage img
+{
+width: 100%;
+top: -6em;
+height: 30%;
+position: absolute;
+border-color: grey;
+z-index: -1;
+}
+
+#comedyimage img
+{
+width: 100%;
+top: -6em;
+height: 10em;
+position: absolute;
+border-color: grey;
+z-index: -1;
+} 
+/*THE FOLLOWING IMAGES REPRESENT THE PICS THAT YOU SEE ON THE THE FRONT HEADLINES OF THE HOME PAGE, THE CATEGORY PAGES AND THE ARTICLE PAGES*/
+#headlineIcon
+{
+float:left;
+width:20%;
+}
+
+#headlineIcon img
+{
+float:left;
+border-radius:0.5em;
+z-index:1;
+}
+
+#Footer
+{
+margin-top:12em;
+margin-right:auto;
+margin-left:auto;
+width:60%;
+background-color:#000048;
+border:solid 0.08em #000048;
+border-radius:0.2em 0.2em 0.3em 0.3em;
+clear:both;
+}
+
+#FooterNav
+{
+border-top:solid 0.15em #C8C8C8 ;
+background-color:#E8E8E8;
+border-radius: 0.0em 0.0em 0.2em 0.2em;
+}
+
+#F
+{
+margin-left:1em;
+}
+
+#logo img
+{
+height: 3em;
+width: 3em;
+position: top;
+}
+
+#FooterNav img
+{
+height:1.90em;
+width:7.5em;
+position: center;
+margin-top:0.2em;
+margin-bottom:0.2em;
+}
+
+#Page 
+{
+margin-top:15em;
+margin-right:auto;
+margin-left:auto;
+width:20%;
+background-color:#000048;
+border:solid 0.08em #000048;
+border-radius:0.2em 0.2em 0.3em 0.3em;
+color: white;
+font: strong;
+text-decoration: none;
+position: relative;
+top: 5em;
+text-align: center;
+text-decoration: none;
+}
+
+#Page a
+{
+text-decoration: none;
+color: white;
+}
+
+#PrevPage
+{
+margin-top:15em;
+margin-right:auto;
+margin-left:auto;
+width:20%;
+background-color:#000048;
+border:solid 0.08em #000048;
+border-radius:0.2em 0.2em 0.3em 0.3em;
+color: white;
+font: strong;
+text-decoration: none;
+position: relative;
+bottom: 9em;
+text-align: center;
+text-decoration: none;
+}
+
+#PrevPage a
+{
+text-decoration: none;
+color: white;
+}
+
+#FootNavHelp
+{
+float:right;
+width:67%;
+}
+
+#FootNavHelp a
+{
+margin-top:0.9em;
+text-decoration:none;
+float:left;
+font-size:12pt;
+color:black;
+text-align:center;
+border-bottom:solid .1em lightgrey;
+}
+
+#FootNavHelp a:hover
+{
+background-color: #000048;
+color: white;
+border-radius: .2em;
+}
+
+#Footer p
+{
+color:white;
+text-align:center;   
+font-size:0.8em;
+}
+
+#Info
+{
+margin-right:auto;
+margin-left:auto;
+text-align: left;
+font-size: 12pt;
+background-color: #f2f2f2;
+border-width: .1em;	
+border-style:solid;
+border-color: grey;
+padding: .25em;
+color: grey;
+letter-spacing: .05em;
+height: auto;
+width:%60;
+}
+
+#infohead
+{
+width:99.4%;
+font-size: 14pt;
+background-color: #000048;
+color: white;
+border: solid;
+border-color: #000048;
+letter-spacing: .05em;
+text-align: center;
+}
+
+#Contacts
+{
+width:99%;
+margin-right:auto;
+margin-left:auto;
+text-align: left;
+font-size: 12pt;
+background-color: #f2f2f2;
+border-width: .1em;	
+border-style:solid;
+border-color: grey;
+padding: .25em;
+color: white;
+letter-spacing: .05em;
+height: auto;
+}
+
+#contactshead
+{
+width:99.4%;
+font-size: 14pt;
+background-color: #000048;
+color: white;
+border: solid;
+border-color: #000048;
+letter-spacing: .05em;
+text-align: center;
+}
+
+#Content
+{
+width: 50%;
+margin-right: auto;
+margin-left: auto;
+}
+
+fieldset
+{
+margin-right:auto;
+margin-left:auto;
+margin-top: 12.5em;
+text-align: left;
+font-size: 14pt;
+background-color: #f2f2f2;
+border-width: .1em;	
+border-style:solid;
+border-color: grey;
+padding: .25em;
+color: grey;
+font-weight: bold;
+letter-spacing: .05em;
+height: ;
+width:40%;
+}
+
+legend 
+{
+width:99.4%;
+font-size: 14pt;
+background-color: #000048;
+color: white;
+border: solid;
+border-color: #000048;
+letter-spacing: .05em;
+text-align: center;
+}
+
+label
+{
+text-align: right;
+width: 9em;
+float: left;
+display: block;
+margin-right: 0.5em;
+}
+
+#content
+{
+width: 25em;
+height: 13em;
+}
+
+
+
+.submit 
+{
+margin-left: 13.3em;
+width: 8em;
+}
+
+
