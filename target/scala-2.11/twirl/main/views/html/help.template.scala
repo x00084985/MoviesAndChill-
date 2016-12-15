@@ -30,8 +30,7 @@ class help extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format
 
 
 Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.15*/("""
-  """),format.raw/*2.3*/("""<div id="Container">
-   <div id="infohead"><h3>Helpful Information</h3></div>
+   """),format.raw/*2.4*/("""<div id="infohead"><h3>Helpful Information</h3></div>
    <div id="Info">
    
     <p>We hope that you are enjoying your time on our brand new up and coming web site. We here at <a href="/index" alt="Link to the Home page.">Movies & Chill</a> make a point of creating a web experience that is both intuitive and user friendly so your desired film review is never more than three clicks away.</p>
@@ -49,7 +48,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
   </div>
  
    </div>
- """)))}),format.raw/*21.3*/("""   
+ """)))}),format.raw/*20.3*/("""   
   
 """))
       }
@@ -71,11 +70,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object help extends help_Scope0.help
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:55 GMT 2016
+                  DATE: Thu Dec 15 17:40:32 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/help.scala.html
-                  HASH: 1fd58bb101e10bb0ea3779be1932c8266eb8f61d
-                  MATRIX: 825->1|845->13|883->14|912->17|2558->1635
-                  LINES: 32->1|32->1|32->1|33->2|52->21
+                  HASH: 1ec85500dcb97928eb8291b4afc3a8077f48814c
+                  MATRIX: 825->1|845->13|883->14|913->18|2535->1612
+                  LINES: 32->1|32->1|32->1|33->2|51->20
                   -- GENERATED --
               */
           

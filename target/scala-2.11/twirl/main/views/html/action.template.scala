@@ -30,27 +30,24 @@ class action extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Form
 
 
 Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1.16*/("""
-
-"""),format.raw/*3.1*/("""<div id="container4"><div id="headline4"><a href="/newsaction_1" alt="Link to Review in Action Section."><div id="headlineIcon"><img src="JackReacher.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Jack Reacher: Never Go Back<br><br> READ FULL REVIEW</h3></a></div></div>
+"""),format.raw/*2.1*/("""<div id="container4"><div id="headline4"><a href="/newsaction_1" alt="Link to Review in Action Section."><div id="headlineIcon"><img src="JackReacher.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Jack Reacher: Never Go Back<br><br> READ FULL REVIEW</h3></a></div></div>
 <br>
 <hr>		
 <div id="container6"><div id="headline6"><a href="/newsaction_2" alt="Link to Review in Action Section."><div id="headlineIcon"><img src="Accountant.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Accountant<br><br> READ FULL REVIEW</h3></a></div></div>
 <br>
 <hr>
 <div id="container7"><div id="headline7"><a href="/newsaction_3" alt="Link to Review in Action Section."><div id="headlineIcon"><img src="Strange.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Dr. Strange<br><br> READ FULL REVIEW</h3></a></div></div>
-	
-	</div>
-    </div>    
+<br>
+<hr>	
+</div>
+
+</div>    
         
-		
-     </body>
-     
-     
-     
-     
-     
- </html>
-""")))}),format.raw/*22.2*/("""
+</div>		
+</body>
+</body>     
+</html>
+""")))}),format.raw/*19.2*/("""
 """))
       }
     }
@@ -71,11 +68,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1
 object action extends action_Scope0.action
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:55 GMT 2016
+                  DATE: Thu Dec 15 17:04:06 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/action.scala.html
-                  HASH: 61961421eef424ca2371bdfde3fbb8e98a0106df
-                  MATRIX: 829->1|849->13|888->15|918->19|1920->991
-                  LINES: 32->1|32->1|32->1|34->3|53->22
+                  HASH: e0beac325bbae46c6ea7562e6bc1c937ba783a8b
+                  MATRIX: 829->1|849->13|888->15|916->17|1904->975
+                  LINES: 32->1|32->1|32->1|33->2|50->19
                   -- GENERATED --
               */
           

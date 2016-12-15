@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
-// @DATE:Thu Dec 08 14:24:27 GMT 2016
+// @DATE:Thu Dec 15 17:46:12 GMT 2016
 
 package router
 
@@ -71,6 +71,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newshorror_1""", """controllers.HomeController.newshorror_1"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newshorror_2""", """controllers.HomeController.newshorror_2"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newshorror_3""", """controllers.HomeController.newshorror_3"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """signup""", """controllers.HomeController.signup"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -418,6 +419,23 @@ class Routes(
     )
   )
 
+  // @LINE:36
+  private[this] lazy val controllers_HomeController_signup20_route = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("signup")))
+  )
+  private[this] lazy val controllers_HomeController_signup20_invoker = createInvoker(
+    HomeController_0.signup,
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.HomeController",
+      "signup",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """signup"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -539,6 +557,12 @@ class Routes(
     case controllers_HomeController_newshorror_319_route(params) =>
       call { 
         controllers_HomeController_newshorror_319_invoker.call(HomeController_0.newshorror_3)
+      }
+  
+    // @LINE:36
+    case controllers_HomeController_signup20_route(params) =>
+      call { 
+        controllers_HomeController_signup20_invoker.call(HomeController_0.signup)
       }
   }
 }

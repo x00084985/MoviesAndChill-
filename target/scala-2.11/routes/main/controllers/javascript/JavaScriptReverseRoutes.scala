@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
-// @DATE:Thu Dec 08 14:24:27 GMT 2016
+// @DATE:Thu Dec 15 17:46:12 GMT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -129,6 +129,16 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "newshorror_3"})
+        }
+      """
+    )
+  
+    // @LINE:36
+    def signup: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.signup",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "signup"})
         }
       """
     )

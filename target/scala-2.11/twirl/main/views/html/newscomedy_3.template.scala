@@ -31,16 +31,12 @@ class newscomedy_3 extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendabl
 
 Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.15*/("""
 
-			"""),format.raw/*3.4*/("""<div id="Container">
+			
 
 
-
-
-<div id="comedyfrontpage"><a href="/comedy" alt="Link to the Comedypage"><h2>COMEDY</h2></a>
-	</div>	
 	
 	
-	<div id="COMEDY1_BODY">
+	"""),format.raw/*8.2*/("""<div id="COMEDY1_BODY">
 	
 <div id="comedy1_head"><h3>Review Title</h3></div>
 
@@ -62,7 +58,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
      
      
  </html>
-""")))}),format.raw/*34.2*/("""
+""")))}),format.raw/*30.2*/("""
 """))
       }
     }
@@ -83,11 +79,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object newscomedy_3 extends newscomedy_3_Scope0.newscomedy_3
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  DATE: Thu Dec 15 16:37:15 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newscomedy_3.scala.html
-                  HASH: 0d7d853ee61c8f5db78e4dc58908d58a3f539a44
-                  MATRIX: 841->1|861->13|899->14|932->21|1314->373
-                  LINES: 32->1|32->1|32->1|34->3|65->34
+                  HASH: 05fbdc46aba769bb506ac3de8bec788ffd5af768
+                  MATRIX: 841->1|861->13|899->14|945->34|1186->245
+                  LINES: 32->1|32->1|32->1|39->8|61->30
                   -- GENERATED --
               */
           

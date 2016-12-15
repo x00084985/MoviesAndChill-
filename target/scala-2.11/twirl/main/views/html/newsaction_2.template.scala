@@ -33,10 +33,8 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 
 
 
-"""),format.raw/*5.1*/("""<div id="actionfrontpage"><a href="/action" alt="Link to the Actionpage"><h2>ACTION</h2></a>
-	</div>	
 	
-	<div id= "action2BODY">
+	"""),format.raw/*6.2*/("""<div id= "action2BODY">
 	
 	<div id="action2head"><h3>Review Title</h3></div>
 	<div id="action2subhead"><h4></h4></div>
@@ -55,7 +53,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
      
      
  </html>
-""")))}),format.raw/*27.2*/("""
+""")))}),format.raw/*25.2*/("""
 """))
       }
     }
@@ -76,11 +74,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object newsaction_2 extends newsaction_2_Scope0.newsaction_2
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  DATE: Thu Dec 15 16:35:53 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newsaction_2.scala.html
-                  HASH: 280ba2908a98bd700379d737457e724e1523f28b
-                  MATRIX: 841->1|861->13|899->14|933->22|1307->366
-                  LINES: 32->1|32->1|32->1|36->5|58->27
+                  HASH: b97570f0f12b8bcbdfdac3d35c0d362068a8f1f5
+                  MATRIX: 841->1|861->13|899->14|937->26|1203->262
+                  LINES: 32->1|32->1|32->1|37->6|56->25
                   -- GENERATED --
               */
           

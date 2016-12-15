@@ -51,6 +51,9 @@ Seq[Any](format.raw/*7.32*/("""
     <a href="/" alt="Logo Link" ><h1>Movies & Chill</h1></a>
 	<div id="signup">
 	<a href="/signup" alt="Logo Link" ><i class="fa fa-user-plus"  style="font-size:48px; right: 10em; color:white"></i></a>
+
+</div>
+</div>
 </head>
     <body background="cinred.jpeg">
         <div id="cinema red"></div>
@@ -70,8 +73,10 @@ Seq[Any](format.raw/*7.32*/("""
 	</div>	
 	
 
-    """),_display_(/*43.6*/content),format.raw/*43.13*/("""
-  """),format.raw/*44.3*/("""<footer>
+    """),_display_(/*46.6*/content),format.raw/*46.13*/("""
+
+"""),format.raw/*48.1*/("""</div>
+  <footer>
 	
 	
     
@@ -95,7 +100,8 @@ Seq[Any](format.raw/*7.32*/("""
 			
         </div>
 		
-	</footer>	 
+	</footer>
+-->	 
 		
     
     </body>
@@ -125,11 +131,11 @@ Seq[Any](format.raw/*7.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:31:03 GMT 2016
+                  DATE: Thu Dec 15 17:57:52 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/main.scala.html
-                  HASH: bc02f1e1af40ac5e15115204e380e3c329d51631
-                  MATRIX: 1002->260|1127->290|1155->292|1508->618|1523->624|1578->658|2557->1611|2585->1618|2615->1621
-                  LINES: 32->7|37->7|39->9|47->17|47->17|47->17|73->43|73->43|74->44
+                  HASH: 38b8520f1c02d3a979d8bf45689c48aa87d23e8f
+                  MATRIX: 1002->260|1127->290|1155->292|1508->618|1523->624|1578->658|2572->1626|2600->1633|2629->1635
+                  LINES: 32->7|37->7|39->9|47->17|47->17|47->17|76->46|76->46|78->48
                   -- GENERATED --
               */
           

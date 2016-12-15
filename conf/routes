@@ -33,3 +33,5 @@ GET /newscomedy_3		controllers.HomeController.newscomedy_3
 GET /newshorror_1		controllers.HomeController.newshorror_1
 GET /newshorror_2		controllers.HomeController.newshorror_2
 GET /newshorror_3		controllers.HomeController.newshorror_3
+GET /signup 			controllers.HomeController.signup
+

@@ -30,29 +30,25 @@ class horror extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Form
 
 
 Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.15*/("""
-
-
-"""),format.raw/*4.1*/("""<div id="container3"><div id="/headline3"><a href="/newshorror_3"><div id="headlineIcon"><img src="Arrival.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Arrival<br><br>READ FULL REVIEW</h3></a></div></div>
+"""),format.raw/*2.1*/("""<div id="container3"><div id="headline3"><a href="/newshorror_3"><div id="headlineIcon"><img src="Arrival.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Arrival<br><br>READ FULL REVIEW</h3></a></div></div>
 <br>
 <hr>		
-<div id="container5"><div id="/headline5"><a href="/newshorror_1"><div id="headlineIcon"><img src="GOTT.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> The Girl On The Train<br><br>READ FULL REVIEW</h3></a></div></div>		
+<div id="container5"><div id="headline5"><a href="/newshorror_1"><div id="headlineIcon"><img src="GOTT.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> The Girl On The Train<br><br>READ FULL REVIEW</h3></a></div></div>		
 <br>
 <hr>
-<div id="container8"><div id="/headline8"><a href="/newshorror_2"><div id="headlineIcon"><img src="DontBreath.jpeg" alt="movie pic" height="88" width="90" align="right"></div><h3> Don't Breath<br><br>READ FULL REVIEW</h3></a></div></div>	
-	
-	</div>
-    </div>    
+<div id="container8"><div id="headline8"><a href="/newshorror_2"><div id="headlineIcon"><img src="DontBreath.jpeg" alt="movie pic" height="88" width="90" align="right"></div><h3> Don't Breath<br><br>READ FULL REVIEW</h3></a></div></div>	
+<br>
+<hr>	
+</div>
+    
+</div>    
         
 		
-        </div>
-     </body>
-     
-     
-     
-     
-     
- </html>
-""")))}),format.raw/*24.2*/("""
+</div>
+</body>
+</body>
+</html>
+""")))}),format.raw/*20.2*/("""
 """))
       }
     }
@@ -73,11 +69,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object horror extends horror_Scope0.horror
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  DATE: Thu Dec 15 16:38:30 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/horror.scala.html
-                  HASH: 0a4c6b43e97fdfbb3d8d406a47fd24b8eff4c2da
-                  MATRIX: 829->1|849->13|887->14|919->20|1806->877
-                  LINES: 32->1|32->1|32->1|35->4|55->24
+                  HASH: ac726f5a5baa863bdf4c87a7fc35d59c26d29e45
+                  MATRIX: 829->1|849->13|887->14|915->16|1770->841
+                  LINES: 32->1|32->1|32->1|33->2|51->20
                   -- GENERATED --
               */
           

@@ -81,7 +81,10 @@ public class HomeController extends Controller {
     }
 	
 	
+	public Result signup() {
+    	return ok(signup.render());	
+    }
 
 
-		
+
 }

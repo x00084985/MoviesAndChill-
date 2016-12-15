@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
-// @DATE:Thu Dec 08 14:24:27 GMT 2016
+// @DATE:Thu Dec 15 17:46:12 GMT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -87,6 +87,12 @@ package controllers {
     def newshorror_3(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newshorror_3")
+    }
+  
+    // @LINE:36
+    def signup(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "signup")
     }
   
     // @LINE:29

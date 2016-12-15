@@ -30,16 +30,13 @@ class newshorror_2 extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendabl
 
 
 Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.15*/("""
-"""),format.raw/*2.1*/("""<div id="Container">
 
 
 
 
-<div id="horrorfrontpage"><a href="/horror" alt="Link to the Horrorpage"><h2>HORROR</h2></a>
-	</div>	
 
 	
-	<div id="horror2BODY">
+	"""),format.raw/*8.2*/("""<div id="horror2BODY">
 	
 	<div id="horror2head"><h3>Review title</h3></div>
 	<div id="horror2subhead"><h4></h4></div>
@@ -58,7 +55,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
      
      
  </html>
-""")))}),format.raw/*30.2*/("""
+""")))}),format.raw/*27.2*/("""
 """))
       }
     }
@@ -79,11 +76,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object newshorror_2 extends newshorror_2_Scope0.newshorror_2
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  DATE: Thu Dec 15 16:35:53 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newshorror_2.scala.html
-                  HASH: eff2d96320a3c969a415b3b8b7839bdc995b9af0
-                  MATRIX: 841->1|861->13|899->14|927->16|1346->405
-                  LINES: 32->1|32->1|32->1|33->2|61->30
+                  HASH: 690343fcc10d02f2f867b7026e967f4d579ceb2b
+                  MATRIX: 841->1|861->13|899->14|941->30|1220->279
+                  LINES: 32->1|32->1|32->1|39->8|58->27
                   -- GENERATED --
               */
           

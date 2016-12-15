@@ -31,10 +31,8 @@ class newsaction_3 extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendabl
 
 Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1.16*/("""
 
-"""),format.raw/*3.1*/("""<div id="actionfrontpage"><a href="/action" alt="Link to the Actionpage"><h2>ACTION</h2></a>
-	</div>	
-	
-	<div id= "action3BODY">
+
+	"""),format.raw/*4.2*/("""<div id= "action3BODY">
 	
 	<div id="action3head"><h3>Review title</h3></div>
 	<div id="action3subhead"><h4></h4></div>
@@ -49,7 +47,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1
      
      
  </html>
-""")))}),format.raw/*21.2*/("""
+""")))}),format.raw/*19.2*/("""
 """))
       }
     }
@@ -70,11 +68,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1
 object newsaction_3 extends newsaction_3_Scope0.newsaction_3
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  DATE: Thu Dec 15 16:34:05 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newsaction_3.scala.html
-                  HASH: dd55fe777c0451cc47294b128cf4a38687a8a929
-                  MATRIX: 841->1|861->13|900->15|930->19|1306->365
-                  LINES: 32->1|32->1|32->1|34->3|52->21
+                  HASH: cab9836425970c5df6cfb4a9323355ee405b0d82
+                  MATRIX: 841->1|861->13|900->15|933->22|1201->260
+                  LINES: 32->1|32->1|32->1|35->4|50->19
                   -- GENERATED --
               */
           

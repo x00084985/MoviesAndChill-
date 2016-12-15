@@ -29,10 +29,10 @@ class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Forma
       {
 
 
-Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.15*/("""
-"""),format.raw/*2.1*/("""<div id="headlines">
+Seq[Any](_display_(/*2.2*/main("home")/*2.14*/{_display_(Seq[Any](format.raw/*2.15*/("""
 
-<div id="container1"><div id="headline1"><a href="/newscomedy_1" alt="Link to Review in Comedy Section."><div id="headlineIcon"><img src="Bridget.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Bridget Jones' Baby<br><br> READ FULL REVIEW</h3></a></div></div>
+
+"""),format.raw/*5.1*/("""<div id="container1"><div id="headline1"><a href="/newscomedy_1" alt="Link to Review in Comedy Section."><div id="headlineIcon"><img src="Bridget.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Bridget Jones' Baby<br><br> READ FULL REVIEW</h3></a></div></div>
 <br>
 <hr>
 <div id="container2"><div id="headline2"><a href="/newscomedy_2" alt="Link to Review in Comedy Section."><div id="headlineIcon"><img src="Storks.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Storks<br><br> READ FULL REVIEW</h3></a></div></div>
@@ -57,11 +57,13 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 <br>
 <hr>
 <div id="container9"><div id="headline9"><a href="/newscomedy_3" alt="Link to Review in Comedy Section"><div id="headlineIcon"><img src="BadSanta.jpg" alt="movie pic" height="88" width="90" align="right"></div><h3> Bad Santa 2<br><br>READ FULL REVIEW</h3></a></div></div>	
-	
-	</div>
-    </div>   
-""")))}),format.raw/*32.2*/("""
+<br>
+<hr>
 
+</div>
+</body>
+</html>   
+""")))}),format.raw/*36.2*/("""
 """))
       }
     }
@@ -82,11 +84,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 15:59:46 GMT 2016
+                  DATE: Thu Dec 15 17:41:24 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/index.scala.html
-                  HASH: 03f18120897fa7252744a223631ac92004382f79
-                  MATRIX: 827->1|847->13|885->14|912->15|3559->2632
-                  LINES: 32->1|32->1|32->1|33->2|63->32
+                  HASH: ecbb2a0e7e14d63deb13cc59629ca2c1fb6cf03c
+                  MATRIX: 827->2|847->14|885->15|914->18|3552->2626
+                  LINES: 32->2|32->2|32->2|35->5|66->36
                   -- GENERATED --
               */
           
