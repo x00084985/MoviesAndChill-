@@ -101,7 +101,7 @@ Seq[Any](format.raw/*7.32*/("""
         </div>
 		
 	</footer>
--->	 
+	 
 		
     
     </body>
@@ -131,9 +131,9 @@ Seq[Any](format.raw/*7.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 19:40:25 GMT 2016
+                  DATE: Thu Dec 15 20:19:30 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/main.scala.html
-                  HASH: be259ff566af4010cbfa9e38ada5b41e1b5667ac
+                  HASH: 6a9850aa6a6189cd1bc7aeb318b360e5a9c70ca5
                   MATRIX: 1002->260|1127->290|1155->292|1508->618|1523->624|1578->658|1975->1028|1990->1034|2050->1073|2664->1661|2692->1668|2721->1670|3123->2045|3138->2051|3200->2091|3323->2187|3339->2193|3400->2232
                   LINES: 32->7|37->7|39->9|47->17|47->17|47->17|58->28|58->28|58->28|76->46|76->46|78->48|96->66|96->66|96->66|97->67|97->67|97->67
                   -- GENERATED --

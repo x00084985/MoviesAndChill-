@@ -81,7 +81,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object newshorror_3 extends newshorror_3_Scope0.newshorror_3
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 20:08:10 GMT 2016
+                  DATE: Thu Dec 15 20:19:30 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newshorror_3.scala.html
                   HASH: e09092efe3674c9596edcf4854734e434cb7d91e
                   MATRIX: 841->1|861->13|899->14|945->34|1307->366

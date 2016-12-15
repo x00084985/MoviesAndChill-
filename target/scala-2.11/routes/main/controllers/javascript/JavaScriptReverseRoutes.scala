@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
-// @DATE:Thu Dec 15 17:46:12 GMT 2016
+// @DATE:Thu Dec 15 21:48:32 GMT 2016
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
@@ -63,7 +63,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:33
+    // @LINE:32
     def newshorror_1: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newshorror_1",
       """
@@ -83,7 +83,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:32
+    // @LINE:31
     def newscomedy_3: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newscomedy_3",
       """
@@ -93,22 +93,12 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:31
+    // @LINE:30
     def newscomedy_2: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newscomedy_2",
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "newscomedy_2"})
-        }
-      """
-    )
-  
-    // @LINE:26
-    def index2: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.HomeController.index2",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "index2"})
         }
       """
     )
@@ -123,7 +113,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:35
+    // @LINE:34
     def newshorror_3: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newshorror_3",
       """
@@ -133,7 +123,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:36
+    // @LINE:35
     def signup: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.signup",
       """
@@ -143,7 +133,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:29
+    // @LINE:28
     def newsaction_3: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newsaction_3",
       """
@@ -163,7 +153,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:34
+    // @LINE:33
     def newshorror_2: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newshorror_2",
       """
@@ -173,7 +163,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:27
+    // @LINE:26
     def newsaction_1: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newsaction_1",
       """
@@ -183,7 +173,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:28
+    // @LINE:27
     def newsaction_2: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newsaction_2",
       """
@@ -203,7 +193,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:30
+    // @LINE:29
     def newscomedy_1: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.HomeController.newscomedy_1",
       """

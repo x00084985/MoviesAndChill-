@@ -23,7 +23,6 @@ GET /comedy			controllers.HomeController.comedy
 GET /form			controllers.HomeController.form
 GET /help			controllers.HomeController.help
 GET /horror			controllers.HomeController.horror
-GET /index2			controllers.HomeController.index2
 GET /newsaction_1		controllers.HomeController.newsaction_1
 GET /newsaction_2		controllers.HomeController.newsaction_2
 GET /newsaction_3		controllers.HomeController.newsaction_3

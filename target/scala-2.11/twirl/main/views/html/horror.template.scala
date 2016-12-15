@@ -69,7 +69,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object horror extends horror_Scope0.horror
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 19:52:00 GMT 2016
+                  DATE: Thu Dec 15 20:19:30 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/horror.scala.html
                   HASH: 4213426f23de98c6e58c1097cbc4a6af77bb8780
                   MATRIX: 829->1|849->13|887->14|915->16|1081->155|1096->161|1156->200|1438->455|1453->461|1510->497|1806->766|1821->772|1885->815|2111->1011

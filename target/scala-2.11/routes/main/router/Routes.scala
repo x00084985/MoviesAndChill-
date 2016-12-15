@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
-// @DATE:Thu Dec 15 17:46:12 GMT 2016
+// @DATE:Thu Dec 15 21:48:32 GMT 2016
 
 package router
 
@@ -61,7 +61,6 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """form""", """controllers.HomeController.form"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """help""", """controllers.HomeController.help"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """horror""", """controllers.HomeController.horror"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """index2""", """controllers.HomeController.index2"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newsaction_1""", """controllers.HomeController.newsaction_1"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newsaction_2""", """controllers.HomeController.newsaction_2"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """newsaction_3""", """controllers.HomeController.newsaction_3"""),
@@ -250,27 +249,10 @@ class Routes(
   )
 
   // @LINE:26
-  private[this] lazy val controllers_HomeController_index210_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("index2")))
-  )
-  private[this] lazy val controllers_HomeController_index210_invoker = createInvoker(
-    HomeController_0.index2,
-    HandlerDef(this.getClass.getClassLoader,
-      "router",
-      "controllers.HomeController",
-      "index2",
-      Nil,
-      "GET",
-      """""",
-      this.prefix + """index2"""
-    )
-  )
-
-  // @LINE:27
-  private[this] lazy val controllers_HomeController_newsaction_111_route = Route("GET",
+  private[this] lazy val controllers_HomeController_newsaction_110_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newsaction_1")))
   )
-  private[this] lazy val controllers_HomeController_newsaction_111_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newsaction_110_invoker = createInvoker(
     HomeController_0.newsaction_1,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -283,11 +265,11 @@ class Routes(
     )
   )
 
-  // @LINE:28
-  private[this] lazy val controllers_HomeController_newsaction_212_route = Route("GET",
+  // @LINE:27
+  private[this] lazy val controllers_HomeController_newsaction_211_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newsaction_2")))
   )
-  private[this] lazy val controllers_HomeController_newsaction_212_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newsaction_211_invoker = createInvoker(
     HomeController_0.newsaction_2,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -300,11 +282,11 @@ class Routes(
     )
   )
 
-  // @LINE:29
-  private[this] lazy val controllers_HomeController_newsaction_313_route = Route("GET",
+  // @LINE:28
+  private[this] lazy val controllers_HomeController_newsaction_312_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newsaction_3")))
   )
-  private[this] lazy val controllers_HomeController_newsaction_313_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newsaction_312_invoker = createInvoker(
     HomeController_0.newsaction_3,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -317,11 +299,11 @@ class Routes(
     )
   )
 
-  // @LINE:30
-  private[this] lazy val controllers_HomeController_newscomedy_114_route = Route("GET",
+  // @LINE:29
+  private[this] lazy val controllers_HomeController_newscomedy_113_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newscomedy_1")))
   )
-  private[this] lazy val controllers_HomeController_newscomedy_114_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newscomedy_113_invoker = createInvoker(
     HomeController_0.newscomedy_1,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -334,11 +316,11 @@ class Routes(
     )
   )
 
-  // @LINE:31
-  private[this] lazy val controllers_HomeController_newscomedy_215_route = Route("GET",
+  // @LINE:30
+  private[this] lazy val controllers_HomeController_newscomedy_214_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newscomedy_2")))
   )
-  private[this] lazy val controllers_HomeController_newscomedy_215_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newscomedy_214_invoker = createInvoker(
     HomeController_0.newscomedy_2,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -351,11 +333,11 @@ class Routes(
     )
   )
 
-  // @LINE:32
-  private[this] lazy val controllers_HomeController_newscomedy_316_route = Route("GET",
+  // @LINE:31
+  private[this] lazy val controllers_HomeController_newscomedy_315_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newscomedy_3")))
   )
-  private[this] lazy val controllers_HomeController_newscomedy_316_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newscomedy_315_invoker = createInvoker(
     HomeController_0.newscomedy_3,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -368,11 +350,11 @@ class Routes(
     )
   )
 
-  // @LINE:33
-  private[this] lazy val controllers_HomeController_newshorror_117_route = Route("GET",
+  // @LINE:32
+  private[this] lazy val controllers_HomeController_newshorror_116_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newshorror_1")))
   )
-  private[this] lazy val controllers_HomeController_newshorror_117_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newshorror_116_invoker = createInvoker(
     HomeController_0.newshorror_1,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -385,11 +367,11 @@ class Routes(
     )
   )
 
-  // @LINE:34
-  private[this] lazy val controllers_HomeController_newshorror_218_route = Route("GET",
+  // @LINE:33
+  private[this] lazy val controllers_HomeController_newshorror_217_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newshorror_2")))
   )
-  private[this] lazy val controllers_HomeController_newshorror_218_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newshorror_217_invoker = createInvoker(
     HomeController_0.newshorror_2,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -402,11 +384,11 @@ class Routes(
     )
   )
 
-  // @LINE:35
-  private[this] lazy val controllers_HomeController_newshorror_319_route = Route("GET",
+  // @LINE:34
+  private[this] lazy val controllers_HomeController_newshorror_318_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("newshorror_3")))
   )
-  private[this] lazy val controllers_HomeController_newshorror_319_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_newshorror_318_invoker = createInvoker(
     HomeController_0.newshorror_3,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -419,11 +401,11 @@ class Routes(
     )
   )
 
-  // @LINE:36
-  private[this] lazy val controllers_HomeController_signup20_route = Route("GET",
+  // @LINE:35
+  private[this] lazy val controllers_HomeController_signup19_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("signup")))
   )
-  private[this] lazy val controllers_HomeController_signup20_invoker = createInvoker(
+  private[this] lazy val controllers_HomeController_signup19_invoker = createInvoker(
     HomeController_0.signup,
     HandlerDef(this.getClass.getClassLoader,
       "router",
@@ -500,69 +482,63 @@ class Routes(
       }
   
     // @LINE:26
-    case controllers_HomeController_index210_route(params) =>
+    case controllers_HomeController_newsaction_110_route(params) =>
       call { 
-        controllers_HomeController_index210_invoker.call(HomeController_0.index2)
+        controllers_HomeController_newsaction_110_invoker.call(HomeController_0.newsaction_1)
       }
   
     // @LINE:27
-    case controllers_HomeController_newsaction_111_route(params) =>
+    case controllers_HomeController_newsaction_211_route(params) =>
       call { 
-        controllers_HomeController_newsaction_111_invoker.call(HomeController_0.newsaction_1)
+        controllers_HomeController_newsaction_211_invoker.call(HomeController_0.newsaction_2)
       }
   
     // @LINE:28
-    case controllers_HomeController_newsaction_212_route(params) =>
+    case controllers_HomeController_newsaction_312_route(params) =>
       call { 
-        controllers_HomeController_newsaction_212_invoker.call(HomeController_0.newsaction_2)
+        controllers_HomeController_newsaction_312_invoker.call(HomeController_0.newsaction_3)
       }
   
     // @LINE:29
-    case controllers_HomeController_newsaction_313_route(params) =>
+    case controllers_HomeController_newscomedy_113_route(params) =>
       call { 
-        controllers_HomeController_newsaction_313_invoker.call(HomeController_0.newsaction_3)
+        controllers_HomeController_newscomedy_113_invoker.call(HomeController_0.newscomedy_1)
       }
   
     // @LINE:30
-    case controllers_HomeController_newscomedy_114_route(params) =>
+    case controllers_HomeController_newscomedy_214_route(params) =>
       call { 
-        controllers_HomeController_newscomedy_114_invoker.call(HomeController_0.newscomedy_1)
+        controllers_HomeController_newscomedy_214_invoker.call(HomeController_0.newscomedy_2)
       }
   
     // @LINE:31
-    case controllers_HomeController_newscomedy_215_route(params) =>
+    case controllers_HomeController_newscomedy_315_route(params) =>
       call { 
-        controllers_HomeController_newscomedy_215_invoker.call(HomeController_0.newscomedy_2)
+        controllers_HomeController_newscomedy_315_invoker.call(HomeController_0.newscomedy_3)
       }
   
     // @LINE:32
-    case controllers_HomeController_newscomedy_316_route(params) =>
+    case controllers_HomeController_newshorror_116_route(params) =>
       call { 
-        controllers_HomeController_newscomedy_316_invoker.call(HomeController_0.newscomedy_3)
+        controllers_HomeController_newshorror_116_invoker.call(HomeController_0.newshorror_1)
       }
   
     // @LINE:33
-    case controllers_HomeController_newshorror_117_route(params) =>
+    case controllers_HomeController_newshorror_217_route(params) =>
       call { 
-        controllers_HomeController_newshorror_117_invoker.call(HomeController_0.newshorror_1)
+        controllers_HomeController_newshorror_217_invoker.call(HomeController_0.newshorror_2)
       }
   
     // @LINE:34
-    case controllers_HomeController_newshorror_218_route(params) =>
+    case controllers_HomeController_newshorror_318_route(params) =>
       call { 
-        controllers_HomeController_newshorror_218_invoker.call(HomeController_0.newshorror_2)
+        controllers_HomeController_newshorror_318_invoker.call(HomeController_0.newshorror_3)
       }
   
     // @LINE:35
-    case controllers_HomeController_newshorror_319_route(params) =>
+    case controllers_HomeController_signup19_route(params) =>
       call { 
-        controllers_HomeController_newshorror_319_invoker.call(HomeController_0.newshorror_3)
-      }
-  
-    // @LINE:36
-    case controllers_HomeController_signup20_route(params) =>
-      call { 
-        controllers_HomeController_signup20_invoker.call(HomeController_0.signup)
+        controllers_HomeController_signup19_invoker.call(HomeController_0.signup)
       }
   }
 }

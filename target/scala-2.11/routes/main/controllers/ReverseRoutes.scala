@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/webapps/MoviesAndChill-/conf/routes
-// @DATE:Thu Dec 15 17:46:12 GMT 2016
+// @DATE:Thu Dec 15 21:48:32 GMT 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -47,7 +47,7 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "horror")
     }
   
-    // @LINE:33
+    // @LINE:32
     def newshorror_1(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newshorror_1")
@@ -59,22 +59,16 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "action")
     }
   
-    // @LINE:32
+    // @LINE:31
     def newscomedy_3(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newscomedy_3")
     }
   
-    // @LINE:31
+    // @LINE:30
     def newscomedy_2(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newscomedy_2")
-    }
-  
-    // @LINE:26
-    def index2(): Call = {
-      import ReverseRouteContext.empty
-      Call("GET", _prefix + { _defaultPrefix } + "index2")
     }
   
     // @LINE:22
@@ -83,19 +77,19 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "comedy")
     }
   
-    // @LINE:35
+    // @LINE:34
     def newshorror_3(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newshorror_3")
     }
   
-    // @LINE:36
+    // @LINE:35
     def signup(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "signup")
     }
   
-    // @LINE:29
+    // @LINE:28
     def newsaction_3(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newsaction_3")
@@ -107,19 +101,19 @@ package controllers {
       Call("GET", _prefix + { _defaultPrefix } + "form")
     }
   
-    // @LINE:34
+    // @LINE:33
     def newshorror_2(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newshorror_2")
     }
   
-    // @LINE:27
+    // @LINE:26
     def newsaction_1(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newsaction_1")
     }
   
-    // @LINE:28
+    // @LINE:27
     def newsaction_2(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newsaction_2")
@@ -131,7 +125,7 @@ package controllers {
       Call("GET", _prefix)
     }
   
-    // @LINE:30
+    // @LINE:29
     def newscomedy_1(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "newscomedy_1")

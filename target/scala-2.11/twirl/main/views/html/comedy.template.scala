@@ -69,7 +69,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1
 object comedy extends comedy_Scope0.comedy
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 19:52:00 GMT 2016
+                  DATE: Thu Dec 15 20:19:30 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/comedy.scala.html
                   HASH: eb0864470e5b45013d7d9ffb404f30d2c2a4f6c1
                   MATRIX: 829->1|849->13|888->15|915->16|1081->155|1096->161|1156->200|1446->463|1461->469|1520->507|1796->756|1811->762|1872->802|2070->970
