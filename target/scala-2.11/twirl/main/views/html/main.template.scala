@@ -55,7 +55,7 @@ Seq[Any](format.raw/*7.32*/("""
 </div>
 </div>
 </head>
-    <body background="cinred.jpeg">
+    <body background=""""),_display_(/*28.24*/routes/*28.30*/.Assets.versioned("images/cinred.jpeg")),format.raw/*28.69*/("""">
         <div id="cinema red"></div>
 	 <div id="Navigation">
             <div id="Home"><a href="/" alt="Link to the Homepage">HOME</a></div><br><br>
@@ -93,8 +93,8 @@ Seq[Any](format.raw/*7.32*/("""
 			
 			</div>
 			
-			 <a href="https://www.facebook.com/" id="F" alt="Link to Find us on Facebook"><img src="Facebook.png" alt="Image of Facebook Logo"></a>
-			 <a href="https://twitter.com/?lang=en" id="T" alt="Link to Find us on Twitter"><img src="Twitter.png" alt="Image of twitter Logo"></a>
+			 <a href="https://www.facebook.com/" id="F" alt="Link to Find us on Facebook"><img src=""""),_display_(/*66.93*/routes/*66.99*/.Assets.versioned("images/Facebook.png")),format.raw/*66.139*/(""""
+			 <a href="https://twitter.com/?lang=en" id="T" alt="Link to Find us on Twitter"><img src=""""),_display_(/*67.95*/routes/*67.101*/.Assets.versioned("images/Twitter.png")),format.raw/*67.140*/(""""
 			  
 			</div>
 			
@@ -131,11 +131,11 @@ Seq[Any](format.raw/*7.32*/("""
 object main extends main_Scope0.main
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 17:57:52 GMT 2016
+                  DATE: Thu Dec 15 19:40:25 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/main.scala.html
-                  HASH: 38b8520f1c02d3a979d8bf45689c48aa87d23e8f
-                  MATRIX: 1002->260|1127->290|1155->292|1508->618|1523->624|1578->658|2572->1626|2600->1633|2629->1635
-                  LINES: 32->7|37->7|39->9|47->17|47->17|47->17|76->46|76->46|78->48
+                  HASH: be259ff566af4010cbfa9e38ada5b41e1b5667ac
+                  MATRIX: 1002->260|1127->290|1155->292|1508->618|1523->624|1578->658|1975->1028|1990->1034|2050->1073|2664->1661|2692->1668|2721->1670|3123->2045|3138->2051|3200->2091|3323->2187|3339->2193|3400->2232
+                  LINES: 32->7|37->7|39->9|47->17|47->17|47->17|58->28|58->28|58->28|76->46|76->46|78->48|96->66|96->66|96->66|97->67|97->67|97->67
                   -- GENERATED --
               */
           

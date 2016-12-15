@@ -51,22 +51,10 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 	 <br>
 	 
 	 
-	 <legend>REVIEW DETAILS</legend>
-	 
-	 <p>
-	 <label for="heading">HEADING:</label>
-	 <input type="text" name="heading" id="heading"/>
-	 </p>
-	 <p>
-	 <label for="content">CONTENT:</label>	
+	 <legend>PURCHASE DETAILS</legend>
+	 <label for="content">POSTAGE ADDRESS:</label>	
 	 <textarea name="message" rows="10" cols="30" background="white"></textarea>
-	 
-	 </p>
-	 <p>
-	 <label for="source">SOURCE:</label>
-	 <input type="text" name="source" id="source"/>
-	 </p>
-	 <p><input type="submit" name="SubmitForm" value="Submit Article" class="submit" /></p>
+	 <p><input type="submit" name="SubmitForm" value="Purchase" class="submit" /></p>
 	 
 	 </fieldset>
 	 
@@ -82,7 +70,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
      
      
  </html>
-""")))}),format.raw/*54.2*/("""
+""")))}),format.raw/*42.2*/("""
 	
 	 
 	
@@ -106,11 +94,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object form extends form_Scope0.form
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 08 16:08:19 GMT 2016
+                  DATE: Thu Dec 15 20:00:30 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/form.scala.html
-                  HASH: 2219947d830d61f4b83bd301dda139f241b6f30f
-                  MATRIX: 825->1|845->13|883->14|913->18|1997->1072
-                  LINES: 32->1|32->1|32->1|33->2|85->54
+                  HASH: d8ac22ac703bcb5f4becfc9f833ab30e29b8cca8
+                  MATRIX: 825->1|845->13|883->14|913->18|1766->841
+                  LINES: 32->1|32->1|32->1|33->2|73->42
                   -- GENERATED --
               */
           

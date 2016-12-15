@@ -38,7 +38,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1
 	<div id="action3subhead"><h4></h4></div>
 	
 <p>Review body</p>
-
+<p>Like the review? Why not<a href="/form" alt="Link to the Form page."> Buy it today</a>
 	
                     </div>
                     </div>
@@ -68,10 +68,10 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/ {_display_(Seq[Any](format.raw/*1
 object newsaction_3 extends newsaction_3_Scope0.newsaction_3
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 16:34:05 GMT 2016
+                  DATE: Thu Dec 15 20:08:10 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newsaction_3.scala.html
-                  HASH: cab9836425970c5df6cfb4a9323355ee405b0d82
-                  MATRIX: 841->1|861->13|900->15|933->22|1201->260
+                  HASH: 22a1b778b96434695d9efbce0300edf05ad6091e
+                  MATRIX: 841->1|861->13|900->15|933->22|1290->349
                   LINES: 32->1|32->1|32->1|35->4|50->19
                   -- GENERATED --
               */

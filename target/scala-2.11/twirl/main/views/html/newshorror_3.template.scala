@@ -46,6 +46,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 
 
 <p>Review Body</p> 
+<p>Like the review? Why not<a href="/form" alt="Link to the Form page."> Buy it today</a>
 
 	</div>
 	</div>
@@ -59,7 +60,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
      
      
  </html>
-""")))}),format.raw/*31.2*/("""
+""")))}),format.raw/*32.2*/("""
 """))
       }
     }
@@ -80,11 +81,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object newshorror_3 extends newshorror_3_Scope0.newshorror_3
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 16:35:53 GMT 2016
+                  DATE: Thu Dec 15 20:08:10 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newshorror_3.scala.html
-                  HASH: 53f883e52fb3c9c550e3ff3fc7908887cd8b5e58
-                  MATRIX: 841->1|861->13|899->14|945->34|1216->275
-                  LINES: 32->1|32->1|32->1|40->9|62->31
+                  HASH: e09092efe3674c9596edcf4854734e434cb7d91e
+                  MATRIX: 841->1|861->13|899->14|945->34|1307->366
+                  LINES: 32->1|32->1|32->1|40->9|63->32
                   -- GENERATED --
               */
           

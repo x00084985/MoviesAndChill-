@@ -45,6 +45,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 	<div id="action1subhead"><h4></h4></div>
 	
 <p>Review Body</p>
+<p>Like the review? Why not <a href="/form" alt="Link to the Form page.">Buy it today</a> 
  	</div>
         </div>
 	</div>	
@@ -57,7 +58,7 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
      
      
  </html>
-""")))}),format.raw/*29.2*/("""
+""")))}),format.raw/*30.2*/("""
 """))
       }
     }
@@ -78,11 +79,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object newsaction_1 extends newsaction_1_Scope0.newsaction_1
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 16:32:45 GMT 2016
+                  DATE: Thu Dec 15 20:08:10 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/newsaction_1.scala.html
-                  HASH: 2d0b281fc95d01660beb17f46555926139d246ec
-                  MATRIX: 841->1|861->13|899->14|949->37|1226->284
-                  LINES: 32->1|32->1|32->1|42->11|60->29
+                  HASH: 100b46ca4bda25e2f86387d16c37f45ba680d6e3
+                  MATRIX: 841->1|861->13|899->14|949->37|1318->376
+                  LINES: 32->1|32->1|32->1|42->11|61->30
                   -- GENERATED --
               */
           

@@ -35,20 +35,16 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
    
     <p>We hope that you are enjoying your time on our brand new up and coming web site. We here at <a href="/index" alt="Link to the Home page.">Movies & Chill</a> make a point of creating a web experience that is both intuitive and user friendly so your desired film review is never more than three clicks away.</p>
 	<p>We would also love to here from you, the user. Your feedback is very important to our website. Please, don't be afraid to let us know what you think we could improve on and we will do our best to achieve it.</p>
-	<p>Finally, if you are as crazy about movies as we are, we would love for you to to show us what you've got to write about. We're looking for writers who are both critical and skilled in the art of creative writing. We know that both aren't easy to come by but we also know that they exist!</p>
-	<p>Please don't hesitate to give us feedback to make your experience of <a href="/index" alt="Link to the Home page.">Movies & Chill</a> greater one. Also, don't be afraid to show us what you've got.<a href="/form" alt="Link to the Form page.">Post a film review</a> to us and you might just start your writing career here at Movies & Chill</p>
    </div>
   <div id="contactshead"> <h3>Contact Details</h3></div>
 	<div id="Contacts">
     <ul>
-    <li> For Feedback & Help, email us at: <br><br>movies&chill_hf@gmail.com</li><br><br>
-    <li> For information on how to become a writer, email us at: <br><br>movies&chill_publisher@gmail.com</li>
-   </ul>
+    <li> For Feedback & Help, email us at: <br><br>movies&chill_hf@gmail.com</li><br><br></ul>
    </div>
   </div>
  
    </div>
- """)))}),format.raw/*20.3*/("""   
+ """)))}),format.raw/*16.3*/("""   
   
 """))
       }
@@ -70,11 +66,11 @@ Seq[Any](_display_(/*1.2*/main("home")/*1.14*/{_display_(Seq[Any](format.raw/*1.
 object help extends help_Scope0.help
               /*
                   -- GENERATED --
-                  DATE: Thu Dec 15 17:40:32 GMT 2016
+                  DATE: Thu Dec 15 20:04:48 GMT 2016
                   SOURCE: /home/wdd/webapps/MoviesAndChill-/app/views/help.scala.html
-                  HASH: 1ec85500dcb97928eb8291b4afc3a8077f48814c
-                  MATRIX: 825->1|845->13|883->14|913->18|2535->1612
-                  LINES: 32->1|32->1|32->1|33->2|51->20
+                  HASH: 69e39b9597b504b8141ce11b9d0d7f3d479b1e57
+                  MATRIX: 825->1|845->13|883->14|913->18|1778->854
+                  LINES: 32->1|32->1|32->1|33->2|47->16
                   -- GENERATED --
               */
           
