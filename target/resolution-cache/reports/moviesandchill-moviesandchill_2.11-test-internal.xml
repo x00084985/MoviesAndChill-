@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161215205043"/>
+		date="20161216123459"/>
 	<dependencies>
 		<module organisation="com.typesafe.play" name="play-java-ws_2.11">
 			<revision name="2.5.10" status="release" pubdate="20161118023153" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="92">
@@ -202,13 +202,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-jdbc-evolutions_2.11">
-			<revision name="2.5.10" status="release" pubdate="20161118023105" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="65">
+			<revision name="2.5.10" status="release" pubdate="20161118023105" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="65">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2571" time="143" location="/home/wdd/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/ivy-2.5.10.xml" searched="true" original-local-location="/home/wdd/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/ivy-2.5.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.11/2.5.10/play-jdbc-evolutions_2.11-2.5.10.pom"/>
+				<metadata-artifact status="no" details="" size="3351" time="0" location="/home/wdd/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/ivy-2.5.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.11/2.5.10/play-jdbc-evolutions_2.11-2.5.10.pom"/>
 				<caller organisation="moviesandchill" name="moviesandchill_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.5.10" rev-constraint-default="2.5.10" rev-constraint-dynamic="2.5.10" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="com.typesafe.play" name="play-ebean_2.11" conf="default, compile, runtime, master" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="3.0.2"/>
 				<artifacts>
-					<artifact name="play-jdbc-evolutions_2.11" type="jar" ext="jar" status="successful" details="" size="181556" time="311" location="/home/wdd/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.5.10.jar">
+					<artifact name="play-jdbc-evolutions_2.11" type="jar" ext="jar" status="no" details="" size="181556" time="0" location="/home/wdd/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.5.10.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.11/2.5.10/play-jdbc-evolutions_2.11-2.5.10.jar"/>
 					</artifact>
 				</artifacts>
@@ -1493,9 +1493,9 @@
 				<artifacts>
 				</artifacts>
 			</revision>
-			<revision name="1.7.22" status="release" pubdate="20161213170525" resolver="public" artresolver="public" homepage="http://www.slf4j.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+			<revision name="1.7.22" status="release" pubdate="20161213170525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
 				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
-				<metadata-artifact status="successful" details="" size="2775" time="153" location="/home/wdd/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.22.xml" searched="true" original-local-location="/home/wdd/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.22.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="/home/wdd/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.22.xml" searched="true" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom"/>
 				<caller organisation="org.asynchttpclient" name="netty-codec-dns" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.0.11"/>
 				<caller organisation="org.slf4j" name="jul-to-slf4j" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.7.21"/>
 				<caller organisation="com.zaxxer" name="HikariCP" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.5.1"/>
@@ -1516,7 +1516,7 @@
 				<caller organisation="org.asynchttpclient" name="netty-resolver" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="2.0.11"/>
 				<caller organisation="org.avaje" name="avaje-classpath-scanner" conf="compile, runtime" rev="[1.7,1.8)" rev-constraint-default="[1.7,1.8)" rev-constraint-dynamic="[1.7,1.8)" callerrev="2.1.1"/>
 				<artifacts>
-					<artifact name="slf4j-api" type="jar" ext="jar" status="successful" details="" size="41077" time="137" location="/home/wdd/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.22.jar">
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41077" time="0" location="/home/wdd/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.22.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.jar"/>
 					</artifact>
 				</artifacts>

@@ -16,13 +16,13 @@ GET /public/base.css					controllers.Assets.at(path="/public", base)
 
 
 # Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
-
-GET /action			controllers.HomeController.action
-GET /comedy			controllers.HomeController.comedy
-GET /form			controllers.HomeController.form
-GET /help			controllers.HomeController.help
-GET /horror			controllers.HomeController.horror
+GET /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+GET /addMovie           controller.HomeController.addMovie
+GET /action			    controllers.HomeController.action
+GET /comedy			    controllers.HomeController.comedy
+GET /form			    controllers.HomeController.form
+GET /help			    controllers.HomeController.help
+GET /horror			    controllers.HomeController.horror
 GET /newsaction_1		controllers.HomeController.newsaction_1
 GET /newsaction_2		controllers.HomeController.newsaction_2
 GET /newsaction_3		controllers.HomeController.newsaction_3

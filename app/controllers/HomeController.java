@@ -18,6 +18,22 @@ import models.*;
  */
 public class HomeController extends Controller {
 
+    private FormFactory formFactory;
+    @Inject
+    public HomeController(FormFactory f) {
+        this.formfactory = f;
+    }
+
+    public Result addMovie() {
+
+        Form<Movie> addMovieForm = formFactory.form(Product.class);
+
+        return ok(addMovie.render(addMovieForm));
+
+
+    }
+
+
     /**
      * An action that renders an HTML page with a welcome message.
      * The configuration in the <code>routes</code> file means that
@@ -31,8 +47,10 @@ public Result movies() {
 	return ok(movies.render());
 	
 	}	
+`
+    public Result addMovie() { return ok(addMovie.render()); }
 
-    	public Result index() {
+    public Result index() {
         return ok(index.render());
     }
 

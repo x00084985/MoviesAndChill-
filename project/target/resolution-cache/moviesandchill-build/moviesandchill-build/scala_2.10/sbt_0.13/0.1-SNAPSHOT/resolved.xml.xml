@@ -4,7 +4,7 @@
 		module="moviesandchill-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161215205025"
+		publication="20161216123451"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
